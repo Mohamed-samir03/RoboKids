@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">روبوكيدز</string>
+    <string name="welcome_back">&#x0020;<u>مرحبًا بعودتك</u></string>
+    <string name="sign_up_now">&#x0020;<u>أنشاء حساب الأن</u></string>
+    <string name="sign_up_title">حساب جديد</string>
+    <string name="draw_open">Open</string>
+    <string name="draw_close">Close</string>
+    <string name="skip"><u>تخطي</u></string>
+    <string name="question1">هل التطبيق مجاني؟</string>
+    <string name="question2">ما هو السن المناسب للاستفادة من التطبيق؟</string>
+    <string name="question3">هل يجب أن أكون متصلاً بالإنترنت أثناء استخدام التطبيق؟</string>
+    <string name="question4">كيف يستفيد طفلي من التطبيق؟</string>
+    <string name="question5">لقد أنشأت حسابي على جهاز Android هل يمكنني تسجيل الدخول باستخدام جهاز iOS؟</string>
+    <string name="question6">كيف أستفيد من قسم التقارير؟</string>
+    <string name="question7">هل يمكنني تغيير لغة التطبيق؟</string>
+    <string name="question8">كيف يمكنني تسجيل الدخول إلى تطبيق RoboKids؟</string>
+
+    <string name="answer1">نعم التطبيق مجاني ويمكنك تحميله من متجر الهاتف والاستمتاع بالتطبيق</string>
+    <string name="answer2">المحتوى الحالي للتطبيق مناسب للأطفال من سن 3 إلى 9 سنوات ، وفي الإصدارات التالية سنعمل على توفير محتوى مناسب للمزيد من الفئات العمرية</string>
+    <string name="answer3">يتطلب الإصدار الحالي من التطبيق اتصالاً بالإنترنت</string>
+    <string name="answer4">يقدم التطبيق لطفلك العديد من المسلسلات الكرتونية والحكايات والأغاني تحت إشراف نخبة من المتخصصين التربويين النفسيين في إطار فني جذاب. يساعدهم على تطويرهم وتطويرهم وأداء دورهم التعليمي على النحو الأمثل</string>
+    <string name="answer5">حاليا لا يمكنك التسجيل من خلال iOS لأن التطبيق يعمل على نظام Android فقط.</string>
+    <string name="answer6">يوفر لك تطبيق RoboKids أنواعًا مختلفة من التقارير: - تقارير المشاهدات: يقدم لك ما شاهده طفلك من محتوى تعليمي وترفيهي مثل الحلقات والمسلسلات والأغاني والقصص وما تحتويه من قيم شيقة ومفيدة. تقارير الاستخدام: تعرف على المدة التي قضاها طفلك في استخدام التطبيق للمحتوى التعليمي والترفيهي على مدار الأسبوع ومتوسط الاستخدام اليومي.</string>
+    <string name="answer7"> في الوقت الحالي ، يوفر التطبيق لغتين رئيسيتين ، العربية والإنجليزية</string>
+    <string name="answer8">في حال كان لديك حساب على تطبيق RoboKids:
+                            \n -افتح تطبيق RoboKids من الجهاز الذي تريد تسجيل الدخول به.
+                            \n -اختر "تسجيل الدخول". أدخل البريد الإلكتروني لحسابك في تطبيق RoboKids.
+                            \n -اكتب كلمة المرور الخاصة بك واضغط على زر "Go".
+                           \n<b>إذا كنت مستخدمًا جديدًا ، فيجب عليك أولاً إنشاء حساب باتباع الخطوات التالية:</b>
+                              \n- افتح تطبيق RoboKids.
+                              \n- اختيار دخول الوالدين.
+                              \n- اختر "إنشاء حساب جديد".
+                              \n- أدخل بريدك الإلكتروني وكلمة المرور.
+                              \n- اختر الدولة.
+                              \n- انقر فوق "تسجيل الدخول".</string>
+
+    <string name="child_avatar">صورة طفلك</string>
+    <string name="addKids">أضف الطفل</string>
+    <string name="isYourChild">هل طفلك...</string>
+    <string name="or">أم</string>
+    <string name="childName">ما اسمه؟</string>
+    <string name="enterName">أدخل الاسم</string>
+    <string name="childAge">سن الطفل</string>
+    <string name="boy">ولد</string>
+    <string name="girl">بنت</string>
+    <string name="avatar_select">اختر شخصية كرتونية تشبه طفلك</string>
+    <string name="advance_options">خيارات متقدمة</string>
+    <string name="add_child_password">اضافة كلمة مرور للطفل</string>
+    <string name="enter_child_password">كلمة مرور الطفل</string>
+    <string name="four_digits">مكون من 4 أرقام فقط</string>
+    <string name="enter_four_digits">أدخل 4 أرقام</string>
+    <string name="choose_avatar">اختار شخصية لطفلك</string>
+
+    <string name="createNewPassword">إنشاء كلمة مرور جديدة</string>
+    <string name="infoPassword">قم بتعيين كلمة المرور الجديدة حتى تتمكن من تسجيل الدخول والوصول إلى RoboKids</string>
+    <string name="oldPassword">كلمة المرور القديمة</string>
+    <string name="newPassword">كلمة مرور جديدة</string>
+    <string name="confirmNewPassword">تأكيد كلمة المرور الجديدة</string>
+    <string name="changePassword">تغير كلمة المرور</string>
+    <string name="commonQuestions">الأسئلة الشائعة</string>
+    <string name="educational">تعليمي</string>
+    <string name="entertainment">ترفيهي</string>
+    <string name="linkToResetPassword">لقد أرسلنا لك رابطًا لإعادة تعيين كلمة المرور الخاصة بي على بريدك الإلكتروني:</string>
+    <string name="infoEmail">تصفح بريدك الإلكتروني واتبع الخطوات مرة أخرى لإعادة تعيين كلمة مرورك مرة أخرى عن طريق كتابة بريدك الإلكتروني الجديد وكلمة المرور.</string>
+    <string name="signIn">تسجيل الدخول</string>
+    <string name="forgotPassword"><u>هل نسيت كلمة السر</u></string>
+    <string name="forgotYourPassword">نسيت رقمك السري؟ لا تقلق</string>
+    <string name="forgotInfo">الرجاء إدخال البريد الإلكتروني الذي قمت بالتسجيل به مسبقًا وسنرسل لك رابطًا لإنشاء كلمة مرور جديدة.</string>
+    <string name="enterEmail">أدخل البريد الإلكتروني</string>
+    <string name="send">إرسال</string>
+    <string name="knowApp">تعرف على التطبيق</string>
+    <string name="appInfo">يوفر التطبيق رحلة مستمرة يشاركها الوالدان مع الطفل ، حيث يتيح للطفل وقتًا مفيدًا على الشاشة لتنمية سلوكه من خلال الألعاب والأنشطة التي يقوم بها الطفل بعد مشاهدة المحتوى التعليمي الشيق والمحتوي الترفيهي المتنوع بين الاناشيد والقصص والالعاب.</string>
+    <string name="parentEntry">دخول الوالدين</string>
+    <string name="reportsFrom">تقارير من</string>
+    <string name="evenToday">حتى اليوم</string>
+    <string name="sat">السبت</string>
+    <string name="sun">الاحد</string>
+    <string name="mon">الاثنين</string>
+    <string name="tues">الثلاثاء</string>
+    <string name="wed">الاربعاء</string>
+    <string name="thurs">الخميس</string>
+    <string name="fri">الجمعه</string>
+    <string name="enterPassword">ادخل كلمة المرور</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="haveAccount">ليس لديك حساب؟</string>
+    <string name="quiz1">الاختبار١</string>
+    <string name="quiz2">الاختبار٢</string>
+    <string name="checkAnswer">تحقق من الجواب</string>
+    <string name="parents">الوالدين</string>
+    <string name="areYou">هل أنت</string>
+    <string name="father">الأب</string>
+    <string name="mother">الأم</string>
+    <string name="select_name">ادخل الاسم</string>
+    <string name="fatherMotherName">اسم الأب / الأم</string>
+    <string name="birthDate">تاريخ الميلاد</string>
+    <string name="select_birthDate">اختار تاريخ الميلاد</string>
+    <string name="nextStep">الخطوة التالية</string>
+    <string name="enterConfirmPassword">تأكيد كلمة المرور</string>
+    <string name="sign_up">تسجيل</string>
+    <string name="youHaveAccount">لديك حساب؟</string>
+    <string name="setting">الاعدادات</string>
+    <string name="updateAccount">تحديث الحساب</string>
+    <string name="todayDate">بتاريخ يوم</string>
+    <string name="useEntertainment">مدة الاستخدام في المحتوى الترفيهي</string>
+    <string name="useEducational">مدة الاستخدام في المحتوى التعليمي</string>
+    <string name="minutes">دقائق</string>
+    <string name="country">الدوله؟</string>
+    <string name="save">حفظ</string>
+    <string name="welcomeRobokids">مرحبا بكم في RoboKids!</string>
+    <string name="createNewAccount">انشاء حساب جديد</string>
+    <string name="my_kids">أطفالي</string>
+    <string name="get_to_know_the_app">التعرف على التطبيق</string>
+    <string name="common_questions">الأسئلة الشائعة</string>
+    <string name="sign_out">الخروج من التطبيق</string>
+    <string name="edit">تعديل</string>
+    <string name="delete">حذف</string>
+    <string name="eraser">ممحاة</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="colors_palette">لوحة الألوان</string>
+    <string name="black">اسود</string>
+    <string name="red">احمر</string>
+    <string name="green">اخضر</string>
+    <string name="purple">بنفسجي</string>
+    <string name="yellow">اصفر</string>
+    <string name="blue">ازرق</string>
+    <string name="reports">تقارير</string>
+    <string name="more_questions">المزيد من الأسئلة</string>
+    <string name="date_of_birth">تاريخ الميلاد</string>
+    <string name="read_more">..قراءة المزيد</string>
+    <string name="check">فحص</string>
+    <string name="very_good">ممتاز</string>
+    <string name="del">مسح</string>
+    <string name="very_bad">سئ جدا</string>
+    <string name="try_again">حاول مره اخري</string>
+    <string name="Films">افلام</string>
+    <string name="Music">اغاني</string>
+    <string name="games">العاب</string>
+    <string name="you_won">لقد ربحت</string>
+    <string name="you_lost">لقد خسرت</string>
+    <string name="it_draw">لم يربح احد</string>
+    <string name="Pronunciation">تعلم النطق</string>
+    <string name="Board">السبورة</string>
+    <string name="Questions">الاختبارات</string>
+    <string name="Gaming">الالعاب</string>
+    <string name="arabic_letters">الحروف العربية</string>
+    <string name="english_letters">الحروف الانجليزية</string>
+    <string name="numbers">الارقام</string>
+    <string name="photo">صور حيوانات</string>
+    <string name="connect">التوصيل</string>
+    <string name="letter_test">اختبار الحروف</string>
+    <string name="edit_kids">تعديل الطفل</string>
+    <string name="update_kids">تحديث</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="timer">٠٠:٠٠</string>
+
+
+    <string name="email_error">ادخل بريد الكتروني صحيح</string>
+    <string name="password_error">ادخل ٦ حروف علي الاقل</string>
+    <string name="confirmPass_error">كلمةالمرور غير متطابق</string>
+    <string name="email_not_found">البريد الالكتروني غير موجود</string>
+    <string name="password_match">كلمة المرور القديم غير متطابق</string>
+    <string name="password_update">تم تعديل كلمة المرور بنجاح</string>
+    <string name="different_password">أدخل كلمة مرور جديدة مختلفة</string>
+    <string name="child_deleted">تم حذف الطفل بنجاح</string>
+    <string name="undo_snackbar">الغاء</string>
+    <string name="days_reports">تقارير الايام</string>
+    <string name="day_events">احداث اليوم</string>
+    <string name="isTrue">صح</string>
+    <string name="isFalse">خطأ</string>
+
+    <string name="connectArabic">طفلك حل اختبار توصيل كلمات اللغة العرية</string>
+    <string name="connectEnglish">طفلك حل اختبار توصيل كلمات اللغة الانجليزية</string>
+    <string name="connectMath">طفلك حل اختبار عد وتوصيل الارقام </string>
+    <string name="selectArabic">طفلك حل اختبار الحروف العربية عن طريق سماع صوت الحرف وتحديد الاجابة الصحيحة</string>
+    <string name="selectEnglish">طفلك حل اختبار الحروف الانجليزية عن طريق سماع صوت الحرف وتحديد الاجابة الصحيحة</string>
+    <string name="calcMath"> ..طفلك حل اختبار الرياضيات في الجمع والطرح والنتيجة هي</string>
+    <string name="secStories">طفلك دخل قسم الحكايات في الوقت</string>
+    <string name="secSongs">طفلك دخل قسم الاغاني في الوقت</string>
+    <string name="secGames">طفلك دخل قسم الالعاب في الوقت</string>
+    <string name="out">وخرج في الوقت</string>
+    <string name="pronArabic">طفلك دخل في قسم تعلم نطق الحروف العربية في الوقت </string>
+    <string name="pronEnglish">طفلك دخل في قسم تعلم نطق الحروف الانجليزية في الوقت </string>
+    <string name="pronMath">طفلك دخل في قسم تعلم نطق الارقام في الوقت </string>
+    <string name="pronPhoto">طفلك دخل في قسم تعلم نطق اسماء الصور في الوقت</string>
+
+    <string name="boardArabic">طفلك دخل في قسم تعلم كتابة الحروف العربية في الوقت </string>
+    <string name="boardEnglish">طفلك دخل في قسم تعلم كتابة الحروف الانجليزية في الوقت </string>
+    <string name="boardMath">طفلك دخل في قسم تعلم كتابة الارقام في الوقت </string>
+    <string name="boardPhoto">طفلك دخل في قسم تعلم كتابة اسماء الصور في الوقت</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:topLeftRadius="@dimen/_5sdp" android:topRightRadius="@dimen/_5sdp" />
+        </shape>
+    </item>
+</selector>

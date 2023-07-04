@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_parentsORKidsFragment"
+            app:destination="@id/parentsORKidsFragment"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeKidsFragment"
+            app:destination="@id/homeKidsFragment"
+            app:popUpTo="@id/main_nav_graph"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/parentsORKidsFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.ParentsORKidsFragment"
+        android:label="fragment_parents_o_r_kids"
+        tools:layout="@layout/fragment_parents_o_r_kids" >
+        <action
+            android:id="@+id/action_parentsORKidsFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_parentsORKidsFragment_to_parentsHomeFragment"
+            app:destination="@id/parentsHomeFragment"
+            app:popUpTo="@id/parentsORKidsFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_parentsORKidsFragment_to_contentEnterSplashFragment"
+            app:destination="@id/contentEnterSplashFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome" >
+        <action
+            android:id="@+id/action_welcomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.auth.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginFragment_to_parentsHomeFragment"
+            app:destination="@id/parentsHomeFragment"
+            app:popUpTo="@id/loginFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.auth.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_registerFragment_to_parentsDataFragment"
+            app:destination="@id/parentsDataFragment"
+            app:popUpTo="@id/registerFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/registerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/parentsDataFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.info.ParentsDataFragment"
+        android:label="fragment_parents_data"
+        tools:layout="@layout/fragment_parents_data" >
+        <action
+            android:id="@+id/action_parentsDataFragment_to_addKidsFragment"
+            app:destination="@id/addKidsFragment"
+            app:popUpTo="@id/parentsDataFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="countryCode"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/addKidsFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.info.AddKidsFragment"
+        android:label="fragment_add_kids"
+        tools:layout="@layout/fragment_add_kids" >
+        <action
+            android:id="@+id/action_addKidsFragment_to_parentsHomeFragment"
+            app:destination="@id/parentsHomeFragment"
+            app:popUpTo="@id/addKidsFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="operation"
+            app:argType="string" />
+        <argument
+            android:name="current_child"
+            app:argType="com.graduationproject.robokidsapp.data.model.Child"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/parentsHomeFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.info.ParentsHomeFragment"
+        android:label="fragment_parents_home"
+        tools:layout="@layout/fragment_parents_home" >
+        <action
+            android:id="@+id/action_parentsHomeFragment_to_kidsReportsFragment"
+            app:destination="@id/kidsReportsFragment" />
+        <action
+            android:id="@+id/action_parentsHomeFragment_to_addKidsFragment"
+            app:destination="@id/addKidsFragment" />
+        <action
+            android:id="@+id/action_parentsHomeFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:popUpTo="@id/parentsHomeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_parentsHomeFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_parentsHomeFragment_to_commonQuestionsFragment"
+            app:destination="@id/commonQuestionsFragment" />
+        <action
+            android:id="@+id/action_parentsHomeFragment_to_getToKnowTheAppFragment2"
+            app:destination="@id/getToKnowTheAppFragment" />
+        <action
+            android:id="@+id/action_parentsHomeFragment_to_homeKidsFragment"
+            app:destination="@id/homeKidsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kidsReportsFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.info.KidsReportsFragment"
+        android:label="fragment_kids_reports"
+        tools:layout="@layout/fragment_kids_reports" >
+        <action
+            android:id="@+id/action_kidsReportsFragment_to_timesUseFragment"
+            app:destination="@id/timesUseFragment" />
+        <argument
+            android:name="childId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_kidsReportsFragment_to_parentsHomeFragment"
+            app:destination="@id/parentsHomeFragment"
+            app:popUpTo="@id/kidsReportsFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_kidsReportsFragment_self"
+            app:destination="@id/kidsReportsFragment"
+            app:popUpTo="@id/kidsReportsFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.auth.ChangePasswordFragment"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" >
+        <action
+            android:id="@+id/action_changePasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/changePasswordFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_updateAccountFragment"
+            app:destination="@id/updateAccountFragment" />
+        <action
+            android:id="@+id/action_settingFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment"
+            app:popUpTo="@id/settingFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_settingFragment_to_parentsHomeFragment"
+            app:destination="@id/parentsHomeFragment"
+            app:popUpTo="@id/settingFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateAccountFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.info.UpdateAccountFragment"
+        android:label="fragment_update_account"
+        tools:layout="@layout/fragment_update_account" >
+        <action
+            android:id="@+id/action_updateAccountFragment_to_settingFragment"
+            app:destination="@id/settingFragment"
+            app:popUpTo="@id/updateAccountFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/commonQuestionsFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.CommonQuestionsFragment"
+        android:label="fragment_common_questions"
+        tools:layout="@layout/fragment_common_questions" >
+        <action
+            android:id="@+id/action_commonQuestionsFragment_to_parentsHomeFragment"
+            app:destination="@id/parentsHomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/getToKnowTheAppFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.GetToKnowTheAppFragment"
+        android:label="fragment_get_to_know_the_app"
+        tools:layout="@layout/fragment_get_to_know_the_app" >
+        <action
+            android:id="@+id/action_getToKnowTheAppFragment_to_parentsHomeFragment"
+            app:destination="@id/parentsHomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.auth.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_emailSendingSuccessFragment"
+            app:destination="@id/emailSendingSuccessFragment"
+            app:popUpTo="@id/forgotPasswordFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/emailSendingSuccessFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.auth.EmailSendingSuccessFragment"
+        android:label="fragment_email_sending_success"
+        tools:layout="@layout/fragment_email_sending_success" >
+        <action
+            android:id="@+id/action_emailSendingSuccessFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/emailSendingSuccessFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="sent_email"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/timesUseFragment"
+        android:name="com.graduationproject.robokidsapp.ui.parentsFragments.info.TimesUseFragment"
+        android:label="fragment_times_use"
+        tools:layout="@layout/fragment_times_use" >
+        <argument
+            android:name="dayReport"
+            app:argType="com.graduationproject.robokidsapp.data.model.Report" />
+    </fragment>
+    <fragment
+        android:id="@+id/contentFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.ContentFragment"
+        android:label="fragment_content"
+        tools:layout="@layout/fragment_content" >
+        <action
+            android:id="@+id/action_contentFragment_to_educationalContentFragment"
+            app:destination="@id/educationalContentFragment" />
+        <action
+            android:id="@+id/action_contentFragment_to_intertainmentContentFragment"
+            app:destination="@id/intertainmentContentFragment" />
+        <argument
+            android:name="currentChild"
+            app:argType="com.graduationproject.robokidsapp.data.model.Child" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeKidsFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.HomeKidsFragment"
+        android:label="fragment_home_kids"
+        tools:layout="@layout/fragment_home_kids" >
+        <action
+            android:id="@+id/action_homeKidsFragment_to_parentsHomeFragment"
+            app:destination="@id/parentsHomeFragment"
+            app:popUpTo="@id/homeKidsFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_homeKidsFragment_to_contentEnterSplashFragment"
+            app:destination="@id/contentEnterSplashFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/educationalContentFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.EducationalContentFragment"
+        android:label="fragment_educational_content"
+        tools:layout="@layout/fragment_educational_content" >
+        <action
+            android:id="@+id/action_educationalContentFragment_to_contentFragment"
+            app:destination="@id/contentFragment" />
+        <action
+            android:id="@+id/action_educationalContentFragment_to_educationalSectionFragment"
+            app:destination="@id/educationalSectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/intertainmentVidoFramFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.EntertainmentVideoFramFragment"
+        android:label="fragment_intertainment_vido_fram"
+        tools:layout="@layout/fragment_entertainment_video_fram" >
+        <action
+            android:id="@+id/action_intertainmentVidoFramFragment_to_intertainmentSectionFragment"
+            app:destination="@id/intertainmentSectionFragment" />
+        <argument
+            android:name="video"
+            app:argType="com.graduationproject.robokidsapp.data.model.Videos" />
+    </fragment>
+    <fragment
+        android:id="@+id/intertainmentContentFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.EntertainmentContentFragment"
+        android:label="fragment_intertainment_content"
+        tools:layout="@layout/fragment_entertainment_content" >
+        <action
+            android:id="@+id/action_intertainmentContentFragment_to_contentFragment"
+            app:destination="@id/contentFragment" />
+        <action
+            android:id="@+id/action_intertainmentContentFragment_to_intertainmentSectionFragment"
+            app:destination="@id/intertainmentSectionFragment" />
+        <action
+            android:id="@+id/action_intertainmentContentFragment_to_gamingSectionFragment"
+            app:destination="@id/gamingSectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/intertainmentSectionFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.EntertainmentSectionFragment"
+        android:label="fragment_intertainment_section"
+        tools:layout="@layout/fragment_entertainment_section" >
+        <action
+            android:id="@+id/action_intertainmentSectionFragment_to_intertainmentContentFragment"
+            app:destination="@id/intertainmentContentFragment" />
+        <action
+            android:id="@+id/action_intertainmentSectionFragment_to_intertainmentVidoFramFragment"
+            app:destination="@id/intertainmentVidoFramFragment" />
+        <argument
+            android:name="section_name"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamingSectionFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.gaming.GamingSectionFragment"
+        android:label="fragment_gaming_section"
+        tools:layout="@layout/fragment_gaming_section" >
+        <action
+            android:id="@+id/action_gamingSectionFragment_to_intertainmentContentFragment"
+            app:destination="@id/intertainmentContentFragment" />
+        <action
+            android:id="@+id/action_gamingSectionFragment_to_memoryGameFragment"
+            app:destination="@id/memoryGameFragment" />
+        <action
+            android:id="@+id/action_gamingSectionFragment_to_ticTacToeFragment"
+            app:destination="@id/ticTacToeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/memoryGameFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.gaming.MemoryGameFragment"
+        android:label="fragment_memory_game"
+        tools:layout="@layout/fragment_memory_game" >
+        <action
+            android:id="@+id/action_memoryGameFragment_to_gamingSectionFragment"
+            app:destination="@id/gamingSectionFragment" />
+        <action
+            android:id="@+id/action_memoryGameFragment_self"
+            app:destination="@id/memoryGameFragment"
+            app:popUpTo="@id/memoryGameFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/ticTacToeFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.gaming.TicTacToeFragment"
+        android:label="fragment_tic_tac_toe"
+        tools:layout="@layout/fragment_tic_tac_toe" >
+        <action
+            android:id="@+id/action_ticTacToeFragment_to_gamingSectionFragment"
+            app:destination="@id/gamingSectionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/educationalSectionFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.EducationalSectionFragment"
+        android:label="fragment_educational_section"
+        tools:layout="@layout/fragment_educational_section" >
+        <action
+            android:id="@+id/action_educationalSectionFragment_to_educationalContentFragment"
+            app:destination="@id/educationalContentFragment" />
+        <action
+            android:id="@+id/action_educationalSectionFragment_to_whiteboardFragment"
+            app:destination="@id/whiteboardFragment" />
+        <argument
+            android:name="currentSection"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_educationalSectionFragment_to_pronunciationLettersFragment"
+            app:destination="@id/pronunciationLettersFragment" />
+        <action
+            android:id="@+id/action_educationalSectionFragment_to_mainQuizzesFragment2"
+            app:destination="@id/mainQuizzesFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/whiteboardFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.WhiteboardFragment"
+        android:label="fragment_whiteboard"
+        tools:layout="@layout/fragment_whiteboard" >
+        <action
+            android:id="@+id/action_whiteboardFragment_to_educationalSectionFragment"
+            app:destination="@id/educationalSectionFragment" />
+        <argument android:name="learnSection"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/pronunciationLettersFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.PronunciationLettersFragment"
+        android:label="fragment_pronunciation_letters"
+        tools:layout="@layout/fragment_pronunciation_letters" >
+        <action
+            android:id="@+id/action_pronunciationLettersFragment_to_educationalSectionFragment"
+            app:destination="@id/educationalSectionFragment" />
+        <argument
+            android:name="content_type"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainQuizzesFragment2"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.quizzes.MainQuizzesFragment"
+        android:label="fragment_main_quizzes"
+        tools:layout="@layout/fragment_main_quizzes" >
+        <action
+            android:id="@+id/action_mainQuizzesFragment2_to_educationalSectionFragment"
+            app:destination="@id/educationalSectionFragment" />
+        <action
+            android:id="@+id/action_mainQuizzesFragment2_to_englishQuiz1Fragment"
+            app:destination="@id/englishQuiz1Fragment" />
+        <action
+            android:id="@+id/action_mainQuizzesFragment2_to_mathQuiz1Fragment"
+            app:destination="@id/mathQuiz1Fragment" />
+        <action
+            android:id="@+id/action_mainQuizzesFragment2_to_quizSoundLittersFragment"
+            app:destination="@id/quizSoundLittersFragment" />
+        <argument
+            android:name="sectionType"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/englishQuiz1Fragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.quizzes.ConnectQuizFragment"
+        android:label="fragment_english_quiz1"
+        tools:layout="@layout/fragment_connect_quiz" >
+        <action
+            android:id="@+id/action_englishQuiz1Fragment_self"
+            app:destination="@id/englishQuiz1Fragment"
+            app:popUpTo="@id/englishQuiz1Fragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="content_type"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/mathQuiz1Fragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.quizzes.MathQuizFragment"
+        android:label="fragment_math_quiz1"
+        tools:layout="@layout/fragment_math_quiz" >
+        <action
+            android:id="@+id/action_mathQuiz1Fragment_self"
+            app:destination="@id/mathQuiz1Fragment"
+            app:popUpTo="@id/mathQuiz1Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizSoundLittersFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.quizzes.QuizSoundLittersFragment"
+        android:label="fragment_quiz_sound_litters"
+        tools:layout="@layout/fragment_quiz_sound_litters" >
+        <action
+            android:id="@+id/action_quizSoundLittersFragment_self"
+            app:destination="@id/quizSoundLittersFragment"
+            app:popUpTo="@id/quizSoundLittersFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="language"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/contentEnterSplashFragment"
+        android:name="com.graduationproject.robokidsapp.ui.kidsFragments.ContentEnterSplashFragment"
+        android:label="fragment_content_enter_splash"
+        tools:layout="@layout/fragment_content_enter_splash" >
+        <action
+            android:id="@+id/action_contentEnterSplashFragment_to_contentFragment"
+            app:destination="@id/contentFragment"
+            app:popUpTo="@id/contentEnterSplashFragment"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="currentChild"
+            app:argType="com.graduationproject.robokidsapp.data.model.Child" />
+    </fragment>
+</navigation>

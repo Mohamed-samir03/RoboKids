@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/pencil"
+        android:title="Pencil"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/pencil"/>
+
+    <item
+        android:id="@+id/eraser"
+        android:title="@string/eraser"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/erase"/>
+
+    <item
+        android:id="@+id/undo"
+        android:title="@string/undo"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_undo"/>
+
+    <item
+        android:id="@+id/redo"
+        android:title="@string/redo"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_redo"/>
+
+
+    <item
+            android:id="@+id/colors_palette"
+            android:title="@string/colors_palette"
+            app:showAsAction="ifRoom"
+            android:icon="@drawable/paint_palette">
+            <menu>
+
+                <item
+                    android:id="@+id/black"
+                    android:title="@string/black"
+                    app:showAsAction="ifRoom"
+                    android:icon="@drawable/ic_blake"/>
+
+                <item
+                    android:id="@+id/red"
+                    android:title="@string/red"
+                    app:showAsAction="ifRoom"
+                    android:icon="@drawable/ic_red"/>
+
+                <item
+                    android:id="@+id/green"
+                    android:title="@string/green"
+                    app:showAsAction="ifRoom"
+                    android:icon="@drawable/ic_green"/>
+
+                <item
+                    android:id="@+id/purple"
+                    android:title="@string/purple"
+                    app:showAsAction="ifRoom"
+                    android:icon="@drawable/ic_purple"/>
+
+                <item
+                    android:id="@+id/yellow"
+                    android:title="@string/yellow"
+                    app:showAsAction="ifRoom"
+                    android:icon="@drawable/ic_yellow"/>
+
+                <item
+                    android:id="@+id/blue"
+                    android:title="@string/blue"
+                    app:showAsAction="ifRoom"
+                    android:icon="@drawable/ic_blue"/>
+            </menu>
+
+        </item>
+
+
+
+
+</menu>

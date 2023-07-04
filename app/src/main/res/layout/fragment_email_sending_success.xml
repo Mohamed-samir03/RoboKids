@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.parentsFragments.auth.EmailSendingSuccessFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="@dimen/_16sdp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/check"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linkToResetPassword"
+            android:textColor="@color/black"
+            android:lineHeight="@dimen/_22sdp"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:textSize="@dimen/_16ssp" />
+
+        <TextView
+            android:id="@+id/email_to_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mohamed@gmail.com"
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/infoEmail"
+            android:textSize="@dimen/_16ssp"
+            android:textColor="#9A9A9A"
+            android:lineHeight="@dimen/_22sdp"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_login_emailSent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signIn"
+            android:textSize="@dimen/_20ssp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:background="@drawable/bg_btn_parent_data"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

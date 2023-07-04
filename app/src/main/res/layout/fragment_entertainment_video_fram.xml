@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vido_frame"
+    android:layoutDirection="ltr"
+    tools:context=".ui.kidsFragments.EntertainmentVideoFramFragment">
+
+    <ImageView
+        android:id="@+id/entertainment_video_back"
+        android:layout_width="@dimen/_56sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:src="@drawable/back_video"
+        android:layout_marginTop="-8dp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/vv_video_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_video_frame"
+        android:layout_marginHorizontal="@dimen/_80sdp"
+        android:layout_marginVertical="@dimen/_30sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

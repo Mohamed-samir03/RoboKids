@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">RoboKids</string>
+
+    <string name="welcome_back">&#x0020;<u>Welcome Back</u></string>
+    <string name="sign_up_now"><u>Sign Up Now</u></string>
+    <string name="draw_open">Open</string>
+    <string name="draw_close">Close</string>
+    <string name="sign_up_title">Sign up</string>
+    <string name="skip"><u>Skip</u></string>
+
+
+    <string name="question1">Is the app free ?</string>
+    <string name="question2">What is the appropriate age to benefit from the application ?</string>
+    <string name="question3">Do I have to be connected to the Internet while using the application ?</string>
+    <string name="question4">How does my child benefit from the app ?</string>
+    <string name="question5">I created my account on an Android device Can I sign in with an iOS device ?</string>
+    <string name="question6">How do I benefit from the reports section ?</string>
+    <string name="question7">Can I change the language of the application ?</string>
+    <string name="question8">How do I login to the RoboKids app ?</string>
+
+    <string name="answer1">Yes, the application is free and you can download it from the phone store and enjoy the application</string>
+    <string name="answer2">The current content of the application is suitable for children from the age of 3 to 9 years, and in the following versions we will work to provide content suitable for more age groups</string>
+    <string name="answer3">The current version of the application requires an Internet connection</string>
+    <string name="answer4">The application offers your child many cartoon series, tales and songs under the supervision of a group of psychological educational specialists in an attractive artistic framework.  It helps them develop and develop them and perform their educational role optimally</string>
+    <string name="answer5">Currently, you can not register through the iOS because the application works on the Android system only.</string>
+    <string name="answer6">The RoboKids application provides you with different types of reports: - Views reports: It presents you with what your child has watched of educational and entertainment content such as episodes, series, songs, stories and what they contain of interesting and useful values. Usage Reports: Find out how long your child has been using the app for educational and entertainment content over the course of the week and the average daily usage.</string>
+    <string name="answer7"> At the moment, the application provides two main languages, Arabic and English</string>
+    <string name="answer8">In the event that you have an account on the RoboKids application:
+                            \n -Open the RoboKids app from the device you want to log in with.
+                            \n -Choose "Login". Enter the email of your account in the RoboKids app.
+                            \n -Type your password and press the "Go" button.
+                           \n<b>If you are a new user, you must first create an account via the following steps:</b>
+                              \n- Open the RoboKids app.
+                              \n- Parental entry selection.
+                              \n- Choose "Create a new account".
+                              \n- Enter your email and password.
+                              \n- Choose the country.
+                              \n- Click "Login".</string>
+
+    <string name="child_avatar">child photo</string>
+    <string name="addKids">Add Child</string>
+    <string name="isYourChild">Is Your Child...</string>
+    <string name="or">OR</string>
+    <string name="childName">Child Name</string>
+    <string name="enterName">Enter Name</string>
+    <string name="childAge">Child Age</string>
+    <string name="boy">Boy</string>
+    <string name="girl">girl</string>
+    <string name="avatar_select">Choose cartoon character like your child</string>
+    <string name="advance_options">Advance Options</string>
+    <string name="add_child_password">Add child password</string>
+    <string name="enter_child_password">Enter child password</string>
+    <string name="four_digits">Consists 4 digits only</string>
+    <string name="enter_four_digits">Enter four digits</string>
+    <string name="choose_avatar">Choose child character</string>
+
+
+
+    <string name="createNewPassword">Create New Password</string>
+    <string name="infoPassword">Set your new password so you can login and access RoboKids</string>
+    <string name="oldPassword">Old Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="confirmNewPassword">Confirm New Password</string>
+    <string name="changePassword">Change Password</string>
+    <string name="commonQuestions">Common Questions</string>
+    <string name="educational">Educational</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="linkToResetPassword">We sent you link to reset my password on your email :</string>
+    <string name="infoEmail">Browse your email and follow the steps again to reset your password again by typing your new email and password.</string>
+    <string name="signIn">sign in</string>
+    <string name="forgotPassword"><u>Forgot Password</u></string>
+    <string name="forgotYourPassword">Forgot your password? do not worry</string>
+    <string name="forgotInfo">Please enter the email you previously registered with and we will send you a link to create a new password.</string>
+    <string name="enterEmail">Enter Email</string>
+    <string name="send">Send</string>
+    <string name="knowApp">Get to know the app</string>
+    <string name="appInfo">The application provides a continuous journey that the parents share with the child, as it allows the child a useful screen time to develop his behavior through games and activities that the child does after watching the interesting and varied educational content between series, stories and games.</string>
+    <string name="parentEntry">Parent Entry</string>
+    <string name="reportsFrom">Reports from</string>
+    <string name="evenToday">Even today</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tues">Tues</string>
+    <string name="wed">Wed</string>
+    <string name="thurs">Thurs</string>
+    <string name="fri">Fri</string>
+    <string name="enterPassword">Enter Your Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="haveAccount">Don\'t Have an account? </string>
+    <string name="quiz1">Quiz 1</string>
+    <string name="quiz2">Quiz 2</string>
+    <string name="checkAnswer">Check Answer</string>
+    <string name="parents">Parents</string>
+    <string name="areYou">Are you</string>
+    <string name="father">Father</string>
+    <string name="mother">Mother</string>
+    <string name="select_name">Enter name</string>
+    <string name="fatherMotherName">Father/Mother Name</string>
+    <string name="birthDate">Birth Date</string>
+    <string name="select_birthDate">Select birth date</string>
+    <string name="nextStep">Next Step</string>
+    <string name="enterConfirmPassword">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="youHaveAccount">You have an account?</string>
+    <string name="setting">Setting</string>
+    <string name="updateAccount">Update Account</string>
+    <string name="todayDate">Today\'s date</string>
+    <string name="useEntertainment">Duration of use in entertainment content</string>
+    <string name="useEducational">Duration of use in educational content</string>
+    <string name="minutes">Minutes</string>
+    <string name="country">Country</string>
+    <string name="save">Save</string>
+    <string name="welcomeRobokids">Welcome To RoboKids!</string>
+    <string name="createNewAccount">Create New Account</string>
+    <string name="my_kids">My Kids</string>
+    <string name="get_to_know_the_app">Get to know the app</string>
+    <string name="common_questions">common questions</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="eraser">Eraser</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="colors_palette">colors palette</string>
+    <string name="black">Black</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="purple">Purple</string>
+    <string name="yellow">Yellow</string>
+    <string name="blue">Blue</string>
+    <string name="reports">Reports</string>
+    <string name="more_questions">More Questions</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="read_more">..read more</string>
+    <string name="check">Check</string>
+    <string name="very_good">Very Good</string>
+    <string name="del">DEL</string>
+    <string name="very_bad">Very Bad</string>
+    <string name="try_again">Try Again</string>
+    <string name="Films">Films</string>
+    <string name="Music">Music</string>
+    <string name="games">Games</string>
+    <string name="you_won">You Won!</string>
+    <string name="you_lost">You Lost!</string>
+    <string name="it_draw">It\'s a Draw!</string>
+    <string name="Pronunciation">Pronunciation</string>
+    <string name="Board">Board</string>
+    <string name="Questions">Questions</string>
+    <string name="Gaming">Gaming</string>
+    <string name="arabic_letters">Arabic Letters</string>
+    <string name="english_letters">English Letters</string>
+    <string name="numbers">Numbers</string>
+    <string name="photo">Animals Photos</string>
+    <string name="connect">Connect</string>
+    <string name="letter_test">Letter test</string>
+    <string name="edit_kids">Edit Kids</string>
+    <string name="update_kids">Update</string>
+    <string name="home">Home</string>
+    <string name="timer">00:00</string>
+
+
+    <string name="email_error">Please Enter Valid E-mail</string>
+    <string name="password_error">Please Enter 6 Char Required</string>
+    <string name="confirmPass_error">ConfirmPassword Not Equal Password</string>
+    <string name="email_not_found">Email not found</string>
+    <string name="password_match">Old password not match</string>
+    <string name="password_update">Parent password updated successfully.</string>
+    <string name="different_password">Enter different new Password</string>
+    <string name="child_deleted">Successfully Deleted Child!</string>
+    <string name="undo_snackbar">Undo</string>
+    <string name="days_reports">Days reports</string>
+    <string name="day_events">Day Events</string>
+    <string name="isTrue">is true</string>
+    <string name="isFalse">is false</string>
+
+    <string name="connectArabic">Your child solved the <b>Arabic</b> word connect quiz</string>
+    <string name="connectEnglish">Your child solved the <b>English</b> word connect quiz</string>
+    <string name="connectMath">Your child solve the counting and connecting <b>numbers</b> quiz</string>
+    <string name="selectArabic">Your child solved the <b>Arabic</b> letters quiz by hearing the sound of the letter and select the correct answer</string>
+    <string name="selectEnglish">Your child solved the <b>English</b> letters quiz by hearing the sound of the letter and select the correct answer</string>
+    <string name="calcMath">Your child solve a <b>Math</b> quiz in addition and subtraction and the result is..</string>
+    <string name="secStories">Your child entered the stories section in time</string>
+    <string name="secSongs">Your child entered the Music section in time</string>
+    <string name="secGames">Your child entered the games section in time</string>
+    <string name="out">and out in time</string>
+    <string name="pronArabic">Your child entered the section of learning to pronounce Arabic letters in time</string>
+    <string name="pronEnglish">Your child entered the section of learning to pronounce English letters in time</string>
+    <string name="pronMath">Your child entered the section of learning to pronounce numbers in time</string>
+    <string name="pronPhoto">Your child entered the section of learning to pronounce the names of the pictures in time</string>
+
+    <string name="boardArabic">Your child entered the section of learning to write Arabic letters in time</string>
+    <string name="boardEnglish">Your child entered the section of learning to write English letters in time</string>
+    <string name="boardMath">Your child entered the section of learning to write numbers in time</string>
+    <string name="boardPhoto">Your child entered the section of learning to write the names of the pictures in time</string>
+ئ
+
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

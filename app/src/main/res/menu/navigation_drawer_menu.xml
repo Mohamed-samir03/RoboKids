@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/myKids"
+        android:title="@string/my_kids"
+        app:showAsAction="never"
+        android:icon="@drawable/kids"/>
+
+    <item
+        android:id="@+id/knowApp"
+        android:title="@string/get_to_know_the_app"
+        app:showAsAction="never"
+        android:icon="@drawable/exclamation"/>
+
+    <item
+        android:id="@+id/commonQuestions"
+        android:title="@string/common_questions"
+        app:showAsAction="never"
+        android:icon="@drawable/question"/>
+
+    <item
+        android:id="@+id/setting"
+        android:title="@string/setting"
+        app:showAsAction="never"
+        android:icon="@drawable/setting"/>
+
+    <item
+        android:id="@+id/signOut"
+        android:title="@string/sign_out"
+        app:showAsAction="never"
+        android:icon="@drawable/signout"/>
+
+</menu>
