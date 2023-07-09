@@ -22,6 +22,7 @@ The project developed a native Android mobile app using Kotlin, It was built in 
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/f2c6d831-1390-4b35-9721-7840387cb550">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/5c6ff168-f950-4822-964b-47c825c7f145">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/a38ce2a5-40f9-4065-9921-0a375cbe82d2" height="250" width="200">
+  <br>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/303c2cbb-f675-4cdb-8f34-bd5fd35dd384" height="300" width="200">
 
   
