@@ -1,6 +1,6 @@
 # RoboKids (Graduation Project)
 <div align=center>
-  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/8fe14b16-be78-451c-9a9a-20e6af2aea4f" height="200" width="200">
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/8fe14b16-be78-451c-9a9a-20e6af2aea4f" height="200" width="250">
 </div>
 <br>
 <br>
@@ -15,9 +15,8 @@ The project developed a native Android mobile app using Kotlin, It was built in 
 - Material design
 - Multilingual Arabic and English
 - Python SDK for Android (Chaquopy)
-<br>
-<br>
-<br>
+
+
 <div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/eec2eb20-fd89-40af-9bac-d3180a2bf49c">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/9e12782c-b304-42bd-8ff2-770cb359c672">
