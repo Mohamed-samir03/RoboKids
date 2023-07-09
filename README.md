@@ -12,5 +12,7 @@ The project developed a native Android mobile app using Kotlin, It was built in 
 - Python SDK for Android (Chaquopy)
   
   
-
+<div align=center>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/e2688435-3be1-4c16-9257-1cdc30f19994">
+</div>
 
