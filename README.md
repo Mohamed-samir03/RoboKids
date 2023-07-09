@@ -1,4 +1,9 @@
 # RoboKids (Graduation Project)
+<div align=center>
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/8fe14b16-be78-451c-9a9a-20e6af2aea4f" height="200" width="200">
+</div>
+<br>
+<br>
 The project developed a native Android mobile app using Kotlin, It was built in order to provide children’s assistance in education, such as learning to write on the smart board, and it is returned whether he wrote correctly or not, using machine learning. In learning to pronounce, there is also a self-response whether the child’s pronunciation is correct or not, and some tests were also put in place, and parents can follow their children By sending reports for each son, the parents are the ones who control the registration, modification, or even deletion of the children. And this application was linked to a robot via Bluetooth in order to interact with the child, and artificial intelligence was linked to the application by using socket-programming, and the app Supports Arabic and English.
 - Kotlin programming language
 - Architecture Pattern (MVVM)
@@ -10,8 +15,9 @@ The project developed a native Android mobile app using Kotlin, It was built in 
 - Material design
 - Multilingual Arabic and English
 - Python SDK for Android (Chaquopy)
-  
-  
+<br>
+<br>
+<br>
 <div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/eec2eb20-fd89-40af-9bac-d3180a2bf49c">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/9e12782c-b304-42bd-8ff2-770cb359c672">
