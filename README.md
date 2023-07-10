@@ -12,9 +12,10 @@ The project developed a native Android mobile app using Kotlin, It was built in 
 - Multilingual Arabic and English
 - Python SDK for Android (Chaquopy)
 
+![Mohamed samir- banner](https://github.com/Mohamed-samir03/RoboKids/assets/81251707/eec2eb20-fd89-40af-9bac-d3180a2bf49c)
 
 <div align=center>
-  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/eec2eb20-fd89-40af-9bac-d3180a2bf49c">
+  <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/4a88fdb5-d89b-4ed8-bfaa-d61fcff1632f">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/9e12782c-b304-42bd-8ff2-770cb359c672">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/531ee723-b6e9-443d-8653-d83df373d882">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/d1efd144-e53b-457b-8b2c-3799a09fbd29">
