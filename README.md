@@ -15,7 +15,9 @@ Youtube Video : https://www.youtube.com/watch?v=8Kj0cpTen58
 - Image loading components (Glide)
 - Material design
 - Multilingual Arabic and English
+- Android Bluetooth
 - Python SDK for Android (Chaquopy)
+- Socket Programming
 
   
 
