@@ -4,7 +4,9 @@ The project developed a native Android mobile app using Kotlin, It was built in 
 
 Documentation : https://drive.google.com/file/d/1z6PDPSP4K12QNulc2n0k43Pnxil1KkqV/view?usp=sharing
 <br>
-Youtube Video : https://www.youtube.com/watch?v=8Kj0cpTen58
+Software Video : https://www.youtube.com/watch?v=8Kj0cpTen58
+<br>
+Hardware video : https://www.youtube.com/watch?v=Xb_TqNN-_FU&t=0s
 
 - Kotlin programming language
 - Architecture Pattern (MVVM)
