@@ -42,6 +42,13 @@ The project developed a  ***native Android mobile app using Kotlin*** , It was b
 </details>
 <div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/9e12782c-b304-42bd-8ff2-770cb359c672">
+</div>
+<br><br>
+<details>
+   <summary>Reports and Parent Setting</summary>
+   <p></p>
+</details>
+<div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/531ee723-b6e9-443d-8653-d83df373d882">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/d1efd144-e53b-457b-8b2c-3799a09fbd29">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/4d2a5929-ee5f-4342-ae10-e863e731cb29">
