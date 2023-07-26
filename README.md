@@ -35,12 +35,10 @@ The project developed a  ***native Android mobile app using Kotlin*** , It was b
 <div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/4a88fdb5-d89b-4ed8-bfaa-d61fcff1632f">
 </div>
-> Create New Account or Login
-  >> You can create a new account by entering the e-mail, password, and your country, and then you can enter the information for the parents, which is represented in the gender, name, and date of birth, and then after that you can register the data of your children for each child separately by choosing a picture of your child, entering his gender, name, and age, and entering a password for a child, and this is optional . If the registration was done previously, you can log in directly with the email and password, and in case you forget the password, you can renew the password with the registered email.
 
 <details>
-   <summary>Title 1</summary>
-   <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+   <summary>Create New Account or Login</summary>
+   <p>You can create a new account by entering the e-mail, password, and your country, and then you can enter the information for the parents, which is represented in the gender, name, and date of birth, and then after that you can register the data of your children for each child separately by choosing a picture of your child, entering his gender, name, and age, and entering a password for a child, and this is optional . If the registration was done previously, you can log in directly with the email and password, and in case you forget the password, you can renew the password with the registered email.</p>
 </details>
 <div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/9e12782c-b304-42bd-8ff2-770cb359c672">
