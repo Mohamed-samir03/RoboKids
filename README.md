@@ -32,9 +32,12 @@ The project developed a  ***native Android mobile app using Kotlin*** , It was b
 
 - - - -
 > Banner
-  >> Nested Blockquote
 <div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/4a88fdb5-d89b-4ed8-bfaa-d61fcff1632f">
+</div>
+> Create New Account || Login
+  >> You can create a new account by entering the e-mail, password, and your country, and then you can enter the information for the parents, which is represented in the gender, name, and date of birth, and then after that you can register the data of your children for each child separately by choosing a picture of your child, entering his gender, name, and age, and entering a password for a child, and this is optional . If the registration was done previously, you can log in directly with the email and password, and in case you forget the password, you can renew the password with the registered email.
+<div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/9e12782c-b304-42bd-8ff2-770cb359c672">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/531ee723-b6e9-443d-8653-d83df373d882">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/d1efd144-e53b-457b-8b2c-3799a09fbd29">
