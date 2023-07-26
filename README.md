@@ -43,6 +43,7 @@ The project developed a  ***native Android mobile app using Kotlin*** , It was b
 <div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/9e12782c-b304-42bd-8ff2-770cb359c672">
 </div>
+
 <br><br>
 <details>
    <summary>Reports and Parent Setting</summary>
@@ -50,7 +51,20 @@ The project developed a  ***native Android mobile app using Kotlin*** , It was b
 </details>
 <div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/531ee723-b6e9-443d-8653-d83df373d882">
+</div>
+
+<br><br>
+<details>
+   <summary>Home Kids and Sections</summary>
+   <p></p>
+</details>
+<div align=center>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/d1efd144-e53b-457b-8b2c-3799a09fbd29">
+  <br><br>
+<details>
+   <summary>Educational section</summary>
+   <p></p>
+</details>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/4d2a5929-ee5f-4342-ae10-e863e731cb29">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/f09e9238-bd48-43c0-8ca1-63d96f9b624c">
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/f2c6d831-1390-4b35-9721-7840387cb550">
