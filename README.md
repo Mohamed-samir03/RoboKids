@@ -58,13 +58,37 @@ The project developed a  ***native Android mobile app using Kotlin*** , It was b
   
 <br><br>
 <details>
-   <summary>Educational section</summary>
+   <summary>Educational section (Learn pronunciation)</summary>
    <p></p>
 </details>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/4d2a5929-ee5f-4342-ae10-e863e731cb29">
+
+<br><br>
+<details>
+   <summary>Educational section (Learn to write)</summary>
+   <p></p>
+</details>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/f09e9238-bd48-43c0-8ca1-63d96f9b624c">
+
+ <br><br>
+<details>
+   <summary>Educational section (Exams)</summary>
+   <p></p>
+</details> 
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/f2c6d831-1390-4b35-9721-7840387cb550">
+
+  <br><br>
+<details>
+   <summary>Entertainment section</summary>
+   <p></p>
+</details> 
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/5c6ff168-f950-4822-964b-47c825c7f145">
+
+  <br><br>
+<details>
+   <summary>Final Result</summary>
+   <p></p>
+</details> 
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/a38ce2a5-40f9-4065-9921-0a375cbe82d2" height="230" width="200">
   <br>
   <img src="https://github.com/Mohamed-samir03/RoboKids/assets/81251707/1174d88d-db2c-4886-afbd-54f933d12270" height="280" width="200">
